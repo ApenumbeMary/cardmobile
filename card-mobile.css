@@ -1,0 +1,81 @@
+body, html, div{
+    overflow: hidden;
+}
+
+body{
+    background-color: blue;
+}
+@media only screen and (max-width:600px){
+    body{
+       background-color: rgb(243, 207, 211);     
+       margin: auto;
+       
+       
+    }
+    @media only screen and (max-width: 640px){
+        img{
+            width: 60vw;
+            height: auto;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            
+        }
+        .container{
+            width: 60vw;
+            height: 100vh;
+            background-color: rgb(247, 216, 221);
+            margin: auto;
+            /* text-indent: 10px; */
+            margin-top: 15px;
+            border: 1px solid  rgb(243, 207, 211); 
+            border-radius: 15px;
+            text-align: center;
+           
+            
+        }
+        .para1{
+            color: gray;
+            font-size: small;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            letter-spacing: 5px;
+        }
+        .div1{
+            background-color: white;
+            height: 100vh;
+            margin: auto;
+            padding-bottom: 50px;
+            border: 1px solid  rgb(243, 207, 211);;
+        }
+        span{
+            /* line-height: 2; */
+            color: gray;
+            /* padding-left: 15px; */
+        }
+        .num{
+            color: rgb(22, 129, 93);
+            /* font-weight: bold; */
+            font-size: x-large;
+           font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        .num2{
+            color: gray;
+            letter-spacing: normal;
+            font-size: x-small;
+        }
+        button{
+            color: white;
+            background-color: rgb(22, 129, 93);;
+            border-radius: 10px;
+            border: none;
+            padding: 5px 50px;
+            font-weight: bold;
+
+    }
+    h1{
+        font-weight: bold;
+        line-height: 1;
+    }
+    .span1, .span2, .span3, .span4, .num, h1, p,{
+        margin-left: 10px;
+    }
+}  
